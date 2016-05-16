@@ -1,6 +1,20 @@
 # nk-js-util
 Simple library for JS, bower plugin
 
+###Installation
+
+Use bower installation to download this library
+
+```
+bower install nk-js-util
+```
+
+or refer js file into page as below
+
+``` html
+<script src="https://raw.githubusercontent.com/muralikrishnat/nk-js-util/master/nk-js-util.js"></script>
+```
+
 Parsing MVC based url into object containing params and respective values and also having is passed url is mathing to MVC basic url or not.
 
 ``` javascript

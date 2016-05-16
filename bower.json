@@ -1,0 +1,24 @@
+{
+  "name": "nk-js-util",
+  "main": "nk-js-util.js",
+  "homepage": "https://github.com/muralikrishnat/nk-js-util",
+  "authors": [
+    "Muralikrishna T <muralikrishna.tottimpudi@autodesk.com>"
+  ],
+  "description": "js library bower",
+  "moduleType": [],
+  "keywords": [
+    "js",
+    "library",
+    "url-parser",
+    "json-encoder"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<script src="nk-js-util.js"></script>
+
+<script>
+    //TEst Cases
+    if($NK){
+        var parsedData = $NK.parseUrl('/:category/:id', '/books/24');
+        console.log(parsedData);
+
+        console.log($NK.parseUrl('/category/:id', '/books/24'));
+
+        var encodedData = $NK.encodeData([ {"Id": 1, "Name": "Murali", "IsStudent": false}, { "Id": 2, "IsStudent": null}]);
+        console.log('encoded Data : ', encodedData);
+
+        var encodedData1 = {
+            "Properties": ["ID", "Name"],
+            "Data": [[1, "Jason Bourne"], [2, "Tony Stark"], [3, "Winter Soldier"]]
+        };
+
+        var decodedData = $NK.decodeData(encodedData1);
+        console.log('decoded data ', decodedData);
+    }
+</script>
+</body>
+</html>
